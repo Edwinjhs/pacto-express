@@ -1,0 +1,9 @@
+.color-button-sign {
+    color: #ffffff;
+    background-color: #006186;
+    border-color: #006186;
+    border: 2px solid #006186;
+    border-radius: 5px;
+    padding: 13px;
+    margin-top: 30px;
+}
