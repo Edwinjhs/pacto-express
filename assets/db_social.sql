@@ -30,6 +30,7 @@ CREATE TABLE `comments` (
   `createdAt` datetime DEFAULT NULL,
   `userId` int NOT NULL,
   `postId` int NOT NULL,
+  `status_comment` int NOT NULL
   PRIMARY KEY (`id`),
   KEY `postId_idx` (`postId`),
   KEY `commentUserId_idx` (`userId`),
